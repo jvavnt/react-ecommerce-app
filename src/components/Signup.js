@@ -97,6 +97,9 @@ const Signup = () => {
         <div className="error">{errors.city}</div>
 
         <button type="submit">Signup</button>
+        <button type="submit" onClick={() => navigate("/login")}>
+          Login
+        </button>
       </form>
     </div>
   );
